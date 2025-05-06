@@ -3,6 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 nav{
     background-color: rgba(163, 79, 241, 0.822);
+    padding: 10px 20px;
+    position: relative;
 }
+
+.menu-toggle{
+    display: none;
+}
+
+.hamburguer{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    justify-content:space-between ;
+}
+
