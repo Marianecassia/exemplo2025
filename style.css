@@ -37,5 +37,6 @@ ul.menu{
 
 ul.menu li a{
     color: rgba(132, 75, 185, 0.349);
+    text-decoration: none;
 }
 
