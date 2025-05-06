@@ -23,3 +23,19 @@ nav{
     justify-content:space-between ;
 }
 
+.hamburguer span{
+    height: 4px;
+    background-color: rgba(238, 122, 28, 0.76);
+    border-radius: 2px;
+}
+
+ul.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul.menu li a{
+    color: rgba(132, 75, 185, 0.349);
+}
+
