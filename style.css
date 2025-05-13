@@ -52,7 +52,7 @@ h1{
 
 /* Responsivo*/
 @media(max-width:768px){
-    .hamburguer}
+    .hamburguer{
     display: flex;
 }
 
