@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+
+    font-family: Arial, sans-serif;
+}
 
 nav{
     background-color: rgba(163, 79, 241, 0.822);
@@ -38,5 +42,33 @@ ul.menu{
 ul.menu li a{
     color: rgba(27, 27, 27, 0.925);
     text-decoration: none;
+}
+
+h1{
+    align-items: center;
+    text-align: center;
+    color: darkorchid;
+}
+
+/* Responsivo*/
+@media(max-width:768px){
+    .hamburguer}
+    display: flex;
+}
+
+ul.menu{
+    display: none;
+    flex-direction:column
+    background: #333;
+    position: absolute;
+    top:60px;
+    left:0;
+    width: 100%;
+}
+
+.menu-toggle:checked
++.hamburguer+ul.menu{
+    display: flex;
+}
 }
 
