@@ -1,74 +1,74 @@
-*{
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8dc;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-body{
-
-    font-family: Arial, sans-serif;
+    color: #333;
 }
 
-nav{
-    background-color: rgba(163, 79, 241, 0.822);
-    padding: 10px 20px;
-    position: relative;
-}
-
-.menu-toggle{
-    display: none;
-}
-
-.hamburguer{
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    width: 30px;
-    height: 25px;
-    justify-content:space-between ;
-}
-
-.hamburguer span{
-    height: 4px;
-    background-color: rgba(238, 122, 28, 0.76);
-    border-radius: 2px;
-}
-
-ul.menu{
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-ul.menu li a{
-    color: rgb(255, 238, 0, 0.925);
-    text-decoration: none;
-}
-
-h1{
-    align-items: center;
+header {
+    background-color: #8a2be2;
+    color: white;
+    padding: 20px;
     text-align: center;
-    color: rgb(241, 220, 23);
 }
 
-/* Responsivo*/
-@media(max-width:768px){
-    .hamburguer{
+h1 {
+    margin-bottom: 5px;
+}
+
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.estrofe p {
+    font-style: italic;
+    color: #444;
+    background-color: #ffebcd;
+    padding: 15px;
+    border-left: 4px solid #ff6347;
+}
+
+.img-single {
+    display: block;
+    max-width: 100%;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.img-dupla {
     display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-ul.menu{
-    display: none;
-    flex-direction:column
-    background: #333;
-    position: absolute;
-    top:60px;
-    left:0;
+.img-dupla img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.comidas ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.img-grid img {
     width: 100%;
+    border-radius: 8px;
 }
 
-.menu-toggle:checked
-+.hamburguer+ul.menu{
-    display: flex;
+footer {
+    background-color: #8a2be2;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
-}
-
