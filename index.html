@@ -5,7 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festa Junina e Culinária</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+  .comidas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .comida {
+    width: 120px;
+    text-align: center;
+  }
+
+  .comida img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .comida p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+</style>
 </head>
+
 <body>
     <header>
         <h1>FESTA JUNINA E CULINÁRIA</h1>
@@ -47,12 +73,29 @@
             <li><strong>Cuscuz</strong> – Muito versátil, pode ser doce ou salgado.</li>
         </ul>
         <div class="img-grid">
-            <img src="img/pamonha.webp" alt="Pamonha">
-            <img src="img/canjica.webp" alt="Canjica">
-            <img src="img/milho.jpg" alt="Bolo de Milho">
-            <img src="img/pe.jpg" alt="Pé-de-moleque">
-            <img src="img/cuscuz-de-milho.jpg" alt="Cuscuz">
-        </div>
+           <h2>Sabores Juninos: 5 Comidas Típicas</h2>
+<div class="comidas-container">
+  <div class="comida">
+    <img src="pamonha.jpg" alt="Pamonha">
+    <p>Pamonha</p>
+  </div>
+  <div class="comida">
+    <img src="canjica.jpg" alt="Canjica">
+    <p>Canjica</p>
+  </div>
+  <div class="comida">
+    <img src="milho.jpg" alt="Milho Cozido">
+    <p>Milho Cozido</p>
+  </div>
+  <div class="comida">
+    <img src="amendoim.jpg" alt="Doce de Amendoim">
+    <p>Doce de Amendoim</p>
+  </div>
+  <div class="comida">
+    <img src="cuscuz.jpg" alt="Cuscuz">
+    <p>Cuscuz</p>
+  </div>
+</div>
     </section>
 
     <footer>
